@@ -1,0 +1,6 @@
+run = "g++ -std=c++14 -o main DSA/Linked_List/Single_Linked_List/Linked_List.cpp && ./main"
+
+modules = ["cpp-clang14"]
+
+[nix]
+channel = "stable-24_05"
